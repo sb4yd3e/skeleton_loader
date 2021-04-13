@@ -6,9 +6,8 @@ class GridExample extends StatefulWidget {
   final List<StateCapital> stateCapitals;
 
   const GridExample({
-    Key key,
-    @required this.stateCapitals,
-  }) : super(key: key);
+     this.stateCapitals,
+  });
 
   @override
   _GridExampleState createState() => _GridExampleState();

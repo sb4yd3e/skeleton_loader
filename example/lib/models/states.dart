@@ -2,5 +2,5 @@ class StateCapital {
   String name;
   String capital;
 
-  StateCapital({this.name, this.capital});
+  StateCapital({required this.name, required this.capital});
 }

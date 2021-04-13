@@ -40,9 +40,8 @@ class SkeletonGridLoader extends StatefulWidget {
   final double childAspectRatio;
 
   const SkeletonGridLoader({
-    Key key,
-    @required this.items,
-    @required this.builder,
+    required this.items,
+    required this.builder,
     this.itemsPerRow = 2,
     this.baseColor = const Color(0xFFE0E0E0),
     this.highlightColor = const Color(0xFFF5F5F5),
@@ -51,7 +50,7 @@ class SkeletonGridLoader extends StatefulWidget {
     this.crossAxisSpacing = 10,
     this.mainAxisSpacing = 10,
     this.childAspectRatio = 1.0,
-  }) : super(key: key);
+  });
 
   @override
   _SkeletonGridLoaderState createState() => _SkeletonGridLoaderState();
